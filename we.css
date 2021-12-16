@@ -1,0 +1,231 @@
+.box{
+    width: 100%;
+    height: 100%;
+    /*background: red;*/	
+}
+.box .head{
+    width: 100%;
+    height: 105px;
+    background: white;
+}
+.head .logo{
+    width: 235px;
+    height: 65px;
+    background: blue;
+    float: left;
+    margin: 0 20px;
+    background: url(test.jpg) no-repeat;
+}
+.head .nav{
+    width: 650px;
+    height: 65px;
+    /*background: blueviolet;*/
+    float: right;
+    margin: 0 200px;
+}
+.nav ul{
+    list-style: none;
+    text-align: center;
+    line-height: auto;
+}
+.nav li{
+    width: 75px;
+    height: 25px;
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+    text-align: center;
+    line-height: 25px;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+    font: 10px;
+    font-weight: bold;
+    display: block;
+}
+.nav li:nth-child(1):hover{
+    background: ;
+    
+}
+.nav li:nth-child(2):hover{
+    background: red;	
+}
+.nav li:nth-child(3):hover{
+    background: red;	
+}
+.nav li:nth-child(4):hover{
+    background: red;	
+}
+.nav li:nth-child(5):hover{
+    background: red;	
+}
+.content{
+    width: 1100px;
+    height: 2500px;
+    /*background: blue;*/
+    margin: 0 100px;
+    margin-bottom: 200px;
+}
+.main{
+    width: 800px;
+    height: 100%;
+    /*background: green;*/
+    float: left;
+    margin: 0 10px;
+}
+
+.main .bg{
+    width:800px ;
+    height: 300px;
+    margin: 10px 0;
+    
+}
+.bg img{
+    width:100% ;
+    height: 100%;
+}
+.text1{
+    width: 100%;
+    height: 215px;
+    
+}
+.text1 .bg-sb{
+    width: 270px;
+    height: 200px;
+    margin: 2px 2px;
+    float: left;
+    
+}
+.bg-sb img{
+    width:100%;
+    height: 100%;
+}
+.text1 .essay{
+    width: 380px;
+    height: 200px;
+    float: left;
+    /*background: violet;*/
+    margin: 0 10px;
+}
+
+.essay ul{
+    list-style: none;
+    text-align: left;
+}
+.essay li{
+    list-style: none;
+    
+
+}
+.essay li:nth-child(1){
+    font-size: 18px;
+    font-weight: bold;
+}
+.essay li:nth-child(4){
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px ;
+}
+.essay li a{
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(168,181,213);
+    float: left;
+    margin:  0 10px;	
+}
+.main .avd1{
+    width: 800px;
+    height: 200px;
+    /*background: hotpink;*/
+    
+}
+.adv1 img{
+    width: 800px;
+    height: 200px;
+}
+.consult{
+    width:240px;
+    height: 100%;
+    /*background: gold;*/
+    float: left;
+    margin: 0 20px;
+}
+.consult1{
+    width: 240px;
+    height: 85px;
+    /*background: yellowgreen;*/
+    margin: 10px 0;
+}
+.consult1 img{
+    width: 100%;
+    height: 85px;
+    margin: 10px 0;
+}
+.consult2{
+    width: 240px;
+    height: 480px;
+    /*background: darkgrey;*/
+    border: 1px solid white;
+}
+.consult2 p{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 5px;
+}
+.consult2 ul{
+    list-style: none;
+}
+.consult2 li{
+    width: 200px;
+    display: block;
+    list-style: none;
+    margin: 15px 0;
+    /*border: 1px dashed black;*/
+    border-bottom: 1px dashed black;
+    
+}
+.consult2 li a{
+    text-decoration: none;
+    color: gray;
+}
+.foot{
+    width: 100%;
+    height: 260px;
+    background: black;
+    margin-bottom: 20px;
+}
+.title{
+    width: 1100px;
+    height: 100px;
+    background: gray;
+    margin: 10px 30px;
+}
+.title ul{
+    list-style: none;
+}
+.title li{
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+}
+.title li a{
+    text-decoration: none;
+    color: white;
+}
+.num{
+    width:1100px;
+    height: 50px;
+    margin: 100px 30px;
+}
+.num ul{
+    list-style: none;
+    
+}
+.num li{
+    list-style: none;
+    float: left;
+    margin: 0 10px;
+    color: white;
+}
